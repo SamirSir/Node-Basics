@@ -1,4 +1,11 @@
 /**
+ * @default
+ * Secret wrapper functions to every module
+ *
+ * (function (exports, require, module, __filename, __dirname) {
+ */
+
+/**
  * @description
  * Auth Module
  * Demonstration of module in node with multiple stuffs
@@ -19,3 +26,16 @@ function showDate() {
 module.exports.url = url;
 module.exports.pingAuth = pingAuth;
 module.exports.showDate = showDate;
+
+// Module objects
+// console.log(module);
+// console.log(require);
+// console.log(module);
+// console.log(__filename);
+// console.log(__dirname);
+
+/**
+ * closing to every module functions
+ *
+ * })
+ */
